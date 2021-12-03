@@ -1,0 +1,34 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "hellow_word",
+            "cwd": "hellow_word",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hellow_word (profile mode)",
+            "cwd": "hellow_word",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "projeto_perguntas",
+            "cwd": "projeto_perguntas",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "projeto_perguntas (profile mode)",
+            "cwd": "projeto_perguntas",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}
