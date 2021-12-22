@@ -28,11 +28,14 @@ class _LoginState extends State<Login> {
             children: [
               TextField(
                 onChanged: (text) {
-                  email = text;
+                  //escuta o que é digitado denro do
+                  email = text; //formulário e passa para a variavel email.
                 },
                 keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(
-                    labelText: 'E-mail:', border: OutlineInputBorder()),
+                  labelText: 'E-mail:',
+                  border: OutlineInputBorder(),
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(0, 8.0, 0, 0),
