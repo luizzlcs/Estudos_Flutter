@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobx/mobx.dart';
+
 import 'package:pokedex/consts/consts_app.dart';
 
 class HomePage extends StatelessWidget {

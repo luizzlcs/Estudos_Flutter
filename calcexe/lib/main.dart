@@ -14,7 +14,11 @@ class CalcExe extends StatelessWidget {
         body: Column(
           children: [
             Container(),
-            Container(child: Color,),
+            Container(
+              width: 30,
+              height: 30,
+              color: Colors.lime,
+            ),
           ],
         ),
       ),
