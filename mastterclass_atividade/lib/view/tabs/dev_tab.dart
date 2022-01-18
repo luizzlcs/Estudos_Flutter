@@ -25,7 +25,7 @@ class DevTab extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  const CircleAvatar(
+                  const CircleAvatar( 
                     backgroundImage: AssetImage('assets/images/luizz.png'),
                     radius: 30,
                   ),
@@ -44,14 +44,9 @@ class DevTab extends StatelessWidget {
                     width: 280,
                     height: 36,
                     alignment: Alignment.topRight,
-                    child: const Text(
+                    child:  Text(
                       'Desenvolvedor Fluter | Dart para qualquer tipo de aplicação para o seu negócio.',
-                      style: TextStyle(
-                        color: Color(0xff51565A),
-                        fontFamily: 'Poppins',
-                        fontWeight: FontWeight.w500,
-                        fontSize: 12,
-                      ),
+                      style: Theme.of(context).textTheme.subtitle1,
                     ),
                   ),
                   Row(

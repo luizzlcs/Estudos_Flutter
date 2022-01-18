@@ -45,31 +45,19 @@ class CustomCards extends StatelessWidget {
                 Expanded(
                   child: Text(
                     nomeCard, // Variavel ####
-                    style: const TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w500,
-                      fontFamily: 'Poppins',
-                    ),
+                    style: Theme.of(context).textTheme.headline6,
                   ),
                 ),
-                const Text(
+                Text(
                   'Exercícios:',
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: Color(0xff51565A),
-                    fontFamily: 'Montserrat',
-                  ),
+                  style: Theme.of(context).textTheme.headline3,
                 ),
                 const SizedBox(width: 5),
                 Column(
                   children: [
                     Text(
                       numeroExercicio, //Variavel ###
-                      style: const TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                        fontFamily: 'Poppins',
-                      ),
+                      style: Theme.of(context).textTheme.headline1,
                     ),
                   ],
                 ),
@@ -79,10 +67,7 @@ class CustomCards extends StatelessWidget {
               child: Center(
                 child: Text(
                   descricaoCard, //Variavel ###
-                  style: const TextStyle(
-                      fontFamily: 'Montserrat',
-                      fontSize: 14,
-                      color: Color(0xff51565A)),
+                  style: Theme.of(context).textTheme.headline5,
                 ),
               ),
             ),
@@ -96,26 +81,18 @@ class CustomCards extends StatelessWidget {
                     width: 20,
                     height: 20,
                   ),
-                  label: const Text(
+                  label: Text(
                     'Acessar código fonte',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
-                      fontSize: 12,
-                      color: Colors.white,
-                    ),
+                    style: Theme.of(context).textTheme.headline2,
                   ),
                 ),
                 ElevatedButton(
                   onPressed: () {},
                   child: const Text('Ver mais'),
                   style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.symmetric(horizontal: 30),
+                    padding: const EdgeInsets.symmetric(horizontal: 30),
                     primary: const Color(0xff055AA3),
-                    textStyle: const TextStyle(
-                      fontFamily: 'Poppins',
-                      fontWeight: FontWeight.w600,
-                      fontSize: 12,
-                    ),
+                    textStyle: Theme.of(context).textTheme.headline4,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(18.0),
                     ),
